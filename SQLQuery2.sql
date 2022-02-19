@@ -10,3 +10,8 @@ Zip bigint,
 PhoneNumber bigint,
 Email varchar(200),
 );
+insert into AddressBook(FirstName,LastName,Address,City,State,Zip,PhoneNumber,Email)
+values('priya','pendela','one-twon','VJW','Andhra',520123, 8886665445 ,'priya@gmail.com'),
+('priyanka','RRR','ring-road','Hyd','Telangana',507123,9976776679,'ttt@gmail.com');
+
+select * from AddressBook
