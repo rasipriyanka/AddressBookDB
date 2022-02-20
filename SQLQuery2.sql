@@ -16,6 +16,11 @@ values('priya','pendela','one-twon','VJW','Andhra',520123, 8886665445 ,'priya@gm
 select * from AddressBook
 UPDATE AddressBook SET FirstName = 'Rasi'WHERE FirstName = 'priya';
 delete from AddressBook where FirstName='priyanka';
-
 select* from AddressBook where State='Andhra';
 select* from AddressBook where City='VJW';
+select COUNT(*) FROM AddressBook where City='Andhra' or State='VJW';
+insert into AddressBook(FirstName,LastName,Address,City,State,Zip,PhoneNumber,Email)
+values('priya','pendela','one-twon','VJW','Andhra',520123, 8886665445 ,'priya@gmail.com'),
+('priyanka','RRR','ring-road','Hyd','Telangana',507123,9976776679,'ttt@gmail.com');
+select * from AddressBook
+
